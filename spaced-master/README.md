@@ -1,5 +1,6 @@
 # spaced
 
+spaced-master is downloaded from outside source and not made by owner of repository
 A control system for spaced memory repetition
 
 ![example animation](animate.gif)
