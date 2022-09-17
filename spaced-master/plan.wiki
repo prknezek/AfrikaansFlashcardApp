@@ -1,0 +1,63 @@
+*Space Repetition Algorithm*
+
+= Observe =
+  
+  *What defines Success?*
+  
+  * [X] The schedule generation is done using a Python generator.  The range
+        uses the generator to create a limited schedule which can be graphed.
+  * [X] Added a context manager for plotting complicated graphs
+  * [X] Continue dostring work, create snippets as you go and push them to
+        github
+  * [X] The co-routine and infinite run concept is explained well in the documentation.
+  * [ ] Added a simple interface for plotting simple graphs
+  * [ ] This feature is tested extensively at the end of life of an idea.
+        [muddled thinking, flush this out]
+  
+  *What is the problem?*
+  
+  The schedule really needs to run forever, not just over the range provided by
+  the user.  The range will cause the tracker to stop when it shouldn't stop,
+  since the maintenance pulses need to go on and on and on.
+  
+  The range argument given to a learning tracker came from the need to draw a
+  graph, so that I could see if the algorithm was working.
+  
+  The range can still be an argument, but the schedule should go on forever.
+  
+  Python has a language feature for these kinds of problems, it is called a
+  generator.  The range needs to use a generator, and the graphs should look the
+  same, but the learning tracker and it's inner parts should be able to
+  provide infinite schedules.
+  
+    
+  *Evidence that contradicts Assumptions:*
+  
+= Orient =
+  *Symptoms:*
+  
+  *Questions for Space Repetition Algorithm:*
+  
+  * Is there another way to do this?
+  * Maybe a schedule doesn't need to run forever, maybe it would be a good thing
+    for a learning tracker to delete itself from the system
+  * Could you create an 'ignored' or 'hold' state for the learning tracker, so
+    it does not end up clogging the system?
+
+  *Assumptions:*
+
+= Decide =
+  *Idea/Hypotheses for Space Repetition Algorithm: >=5*
+  * [ ] 
+  * [ ] 
+  * [ ] 
+  * [ ] 
+  * [ ] 
+        
+  *Chosen Idea/Hypothesis*
+    
+
+  *Plan to Expand-on-Idea/Disprove-Hypothesis*
+
+= Act =
+
