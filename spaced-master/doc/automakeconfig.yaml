@@ -1,3 +1,0 @@
----
-root_file:      "spaced.tex"
-change_filters: ['*.rst','*.xml','*.gif','*.jpg', '*.png']

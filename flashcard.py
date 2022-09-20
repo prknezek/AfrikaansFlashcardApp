@@ -32,12 +32,6 @@ for i in group_recollection_averages:
 group_recollection_averages = avgs
 group_recollection = 0
 
-# importing spaced repetition 
-sys.path.insert(1, 'D:/VSCode Projects/Afrikaans Flashcard App/spaced-master')
-print(sys.path)
-#import repetition as rep
-import repetition as rep
-
 # pygame setup for tts audio
 pygame.init()
 pygame.mixer.init()
